@@ -1,0 +1,22 @@
+public class Automobile 
+{
+   Automobile()
+   {
+	System.out.println("Toyota");
+   }
+   void display()
+   {
+	   System.out.println(" Providing standard quality forever");  
+   }
+   
+}
+Class Hyundai extends Automobile
+{
+	System.out.println("indias top automobile sector");
+}
+Public static void main(String args[])
+{
+	Automobile a1=new Automobile();
+	a1.display();
+	
+}
